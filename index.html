@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teras Merapi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .reservasi-btn {
+        border: 2px solid white;
+        color: white; /* Pastikan warna teks default putih */
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .reservasi-btn:hover {
+        background-color: white;
+        color: black !important; /* Tambahkan !important agar warna teks menjadi hitam saat hover */
+        border: 2px solid white;
+      }
+      .contact-card {
+        background-color: #22303f;
+        /* Warna background sesuai gambar */
+        color: white;
+        border: 3px solid white;
+        padding: 20px;
+        text-align: center;
+        margin: 10px;
+        min-height: 200px;
+        /* Atur tinggi minimum untuk card */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* Center content vertically */
+      }
+
+      .contact-card h4 {
+        margin-top: 15px;
+        font-weight: bold;
+      }
+
+      .contact-card p {
+        margin: 0;
+      }
+
+      .contact-card i {
+        font-size: 36px;
+      }
+
+      .hero {
+        background-image: url("bg 2.avif");
+        /* Ganti URL gambar sesuai keinginan */
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        position: relative;
+        color: white;
+      }
+
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .footer {
+        background-color: #182835;
+        /* Warna background sesuai gambar */
+        color: white;
+        padding: 40px 0;
+      }
+
+      .footer a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        color: #f1f1f1;
+      }
+
+      .footer .social-icons i {
+        font-size: 24px;
+        margin-right: 15px;
+        color: white;
+      }
+
+      .footer .social-icons i:hover {
+        color: #f1f1f1;
+      }
+
+      .copyright {
+        background-color: white;
+        /* Background putih */
+        text-align: center;
+        margin-top: 0;
+        padding: 10px;
+        color: black;
+        /* Teks hitam */
+      }
+
+      @font-face {
+        font-family: "CustomFont";
+        src: url("custom.otf") format("opentype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      h2.text-center {
+        font-family: "CustomFont", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #ffffff">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark py-3"
+      style="background-color: #22303f"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-size: 1.5rem">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Package</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-primary text-white px-3 reservasi-btn"
+                href="#"
+                >Reservasi</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2 class="text-center" style="font-size: 65px"><b>Teras Merapi</b></h2>
+        <p>
+          Teras Merapi adalah salah satu destinasi wisata yang terletak di kawasan lereng Gunung Merapi, tepatnya di Sleman, Yogyakarta. Tempat ini terkenal karena menawarkan pemandangan yang indah, terutama panorama Gunung Merapi dan sekitarnya. Teras Merapi juga dikenal dengan suasana sejuk dan segar yang disebabkan oleh lokasinya di pegunungan.
+
+
+        </p>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="bg1.jpg" alt="Sejarah Teras Merapi" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mt-3">Sejarah Teras Merapi</h2>
+          <p>
+            Sejarah Teras Merapi dimulai sebagai bagian dari upaya masyarakat lokal untuk memanfaatkan potensi alam di sekitar Gunung Merapi, yang merupakan gunung berapi aktif dan menjadi salah satu ikon Yogyakarta. Sebelum menjadi destinasi wisata, area ini dikenal oleh penduduk setempat sebagai lahan pertanian dan tempat tinggal, yang terkena dampak dari aktivitas vulkanik Merapi.
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="mt-3">Wisata Teras Merapi</h2>
+          <p>
+            Wisatawan dapat menikmati berbagai aktivitas di sini, seperti berfoto dengan latar belakang pemandangan yang menakjubkan, menjelajahi jalur hiking, atau sekadar bersantai sambil menikmati kopi atau makanan lokal di kafe yang tersedia. Teras Merapi juga menjadi tempat yang ideal untuk melihat matahari terbenam yang spektakuler.
+
+
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="bg1.jpg" alt="Sejarah Teras Merapi" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="text-white py-5" style="background-color: #22303f">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <h2 class="text-center" style="font-size: 65px"><b>Contact Us</b></h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+
+          <br />
+          <div class="col-md-4">
+            <div class="contact-card">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Address</h4>
+              <p>Jln. Kaliurang Desa ambal,<br />Sleman, Yogyakarta 58962</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-card">
+              <i class="bi bi-telephone"></i>
+              <h4>Phone</h4>
+              <p>+62822231933</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-card">
+              <i class="bi bi-envelope"></i>
+              <h4>Email</h4>
+              <p>Terasmerapi@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="container my-5">
+      <h2 class="text-center" style="font-size: 65px"><b>Visit Us</b></h2>
+      <br />
+      <iframe
+        src="https://maps.google.com/maps?q=yogyakarta&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%"
+        height="400"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+      ></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Teras Merapi</h3>
+            <p>
+              Duis cursus, mi quis viverra ornare, eros dolor interdum nulla
+              utimp erdiet commodo diam libero vitae nibh et jus cursus id
+              rutrum lore imperdiet ut sem vitae risus tristique posuere
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-tiktok"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>Quick Link</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Paket</a></li>
+              <li><a href="#">Reservasi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p><i class="bi bi-telephone"></i> +628180289912</p>
+            <p><i class="bi bi-envelope"></i> Terasmerapi@gmail.com</p>
+            <p>
+              <i class="bi bi-geo-alt"></i> Jln.Kaliurang, Teras merapi no.12
+              Sleman, Yogyakarta
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© 2022 All Rights Reserved by Kelompok 1.</p>
+    </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
